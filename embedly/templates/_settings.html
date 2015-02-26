@@ -1,0 +1,10 @@
+{% import '_includes/forms' as forms %}
+
+{{ forms.textField({
+label: 'Embed.ly API Key'|t,
+required: true,
+name: 'apiKey',
+value: settings.apiKey,
+placeholder: "myB9neAt0dow4weiK8wuP8waM9yU2Jov",
+errors: settings.getErrors('apiKey')
+}) }}

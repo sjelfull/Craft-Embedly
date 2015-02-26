@@ -1,0 +1,12 @@
+{
+    "name": "fred/embedly",
+    "require": {
+        "embedly/embedly-php": "0.5.*"
+    },
+    "authors": [
+        {
+            "name": "Fred Carlsen",
+            "email": "fred@sjelfull.no"
+        }
+    ]
+}
